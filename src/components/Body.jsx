@@ -12,7 +12,7 @@ function Body() {
     fetch("https://api.imgflip.com/get_memes")
       .then((res) => res.json())
       .then((data) => setMemes(data.data.memes));
-  }, []);
+  }, [meme]);
 
   function change(event) {
     const { name, value } = event.target;

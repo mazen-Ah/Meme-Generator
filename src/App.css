@@ -1,0 +1,150 @@
+* {
+  outline: none;
+  border-radius: 5px;
+}
+.header {
+  position: absolute;
+  width: 550px;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header > * {
+  color: white;
+  padding: 10px 20px;
+}
+input {
+  color: black;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent {
+  position: relative;
+  width: 550px;
+  min-height: 90vh;
+  background-color: #e5e5e5;
+}
+.topText {
+  position: absolute;
+  width: 230px;
+  height: 35px;
+  left: 283px;
+  top: 101px;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+}
+.bottomText {
+  position: absolute;
+  width: 230px;
+  height: 35px;
+  left: 36px;
+  top: 101px;
+  border: 1px solid #d5d4d8;
+  border-radius: 5px;
+}
+button {
+  position: absolute;
+  width: 477px;
+  height: 40px;
+  left: 36px;
+  top: 151px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+}
+.changeMeme {
+  position: absolute;
+  width: 477px;
+  height: 40px;
+  left: 36px;
+  top: 151px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+}
+.meme {
+  position: absolute;
+  width: 477px;
+  height: fit-content;
+  left: 36px;
+  top: 227px;
+  border-radius: 2px;
+}
+.memes {
+  height: fit-content;
+  max-height: 400px;
+  width: 100%;
+  display: block;
+}
+.top-text {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  /* border: 2px solid #000000; */
+}
+
+.bottom-text {
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+
+  /* border: 2px solid #000000; */
+}
+.text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+.top {
+  top: 0;
+}
+.bottom {
+  bottom: 0;
+}

@@ -21,9 +21,9 @@ function Body() {
       [name]: value,
     }));
   }
+
   function clicked() {
     let randomNum = Math.floor(Math.random() * meme.length);
-    console.log(randomNum);
     setAllMemes((prevallMemes) => ({
       ...prevallMemes,
       url: meme[randomNum].url,
